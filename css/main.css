@@ -19,4 +19,41 @@
 
 	background-color: red;
 	color:white;
-	text-transform: uppercase;}
+	text-transform: uppercase;
+}
+
+/* these are the css3 button styles*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding:20px 0 0 20px;
+}
+
+.button{
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	/* add a box show*/
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 2px  rgba(0,0,0,0.5);
+}
+
+.blue {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+background: #e1ffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+
+}
+
+.button:active{
+	position: relative;
+	top: 5px;
+	
+}
